@@ -1,13 +1,17 @@
 "use client";
-import { BackgroundBeams } from "./ui/background-beams";
-import Typewriter from "../components/Typewriter"
-// import TailwindcssButtons from "./Button";
 
-export default function BackgroundBeamsDemo() {
+import HeroScetion1 from "./home page/HeroScetion1";
+import HeroSection2 from "./home page/HeroSection2";
+import { HeroHighlight } from "./ui/hero-highlight";
+
+export default function HeroHighlightDemo() {
   return (
-    <div className="h-screen w-full  bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
-      <Typewriter/>
-      <BackgroundBeams />
-    </div>
+    <div className="w-full min-h-screen">
+       <HeroHighlight>
+      <HeroScetion1 />
+      <HeroSection2/>
+    </HeroHighlight>
+   </div>
   );
 }
+

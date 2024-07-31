@@ -20,7 +20,7 @@ export default function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <div className="flex flex-col z-50 items-center justify-center h-[40rem]  ">
+    <div className="flex flex-col z-50 items-center justify-center w-full h-[40rem]  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-sm   sm:text-xl tracking-wider  ">
         Effortless Expense Tracking and AI-Powered Insights
       </p>

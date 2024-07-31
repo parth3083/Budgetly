@@ -1,8 +1,8 @@
-import Background from "../Background";
+import Typewriter from "../Typewriter"
 function HeroScetion1() {
   return (
     <div className="w-full h-screen">
-      <Background />
+      <Typewriter/>
     </div>
   );
 }

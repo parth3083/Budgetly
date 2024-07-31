@@ -1,9 +1,9 @@
-import HeroScetion1 from "../components/home page/HeroScetion1";
+import Background from "../components/Background"
 
 function Home() {
   return (
     <div className="w-full min-h-screen">
-      <HeroScetion1 />
+      <Background/>
     </div>
   );
 }
