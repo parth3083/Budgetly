@@ -18,7 +18,7 @@ export default function CardDemo() {
             `bg-[url(${image1})] bg-cover `,
             "transition-all duration-500"
           )}
-          style={{ backgroundImage: `url(${image1})` }} // Ensure backgroundImage is set correctly
+          style={{ backgroundImage: `url(${image1})` }} 
         >
           <div className="text relative z-50">
             <h1 className="font-bold text-xl md:text-3xl text-white relative">
