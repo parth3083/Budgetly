@@ -7,16 +7,20 @@ import HeroSection4 from "./home page/HeroSection4";
 import Herosection5 from "./home page/Herosection5";
 import { HeroHighlight } from "./ui/hero-highlight";
 
+
+
 export default function HeroHighlightDemo() {
   return (
-    <div className="w-full min-h-screen">
-      <HeroHighlight>
-        <HeroScetion1 />
-        <HeroSection2 />
-        <HeroSection3 />
-        <HeroSection4 />
-        <Herosection5 />
-      </HeroHighlight>
+    <div className="w-full min-h-screen overflow-hidden">
+        <HeroHighlight>
+      
+          <HeroScetion1 />
+          <HeroSection2 />
+          <HeroSection3 />
+          <HeroSection4 />
+          <Herosection5 />
+      
+        </HeroHighlight>
     </div>
   );
 }
