@@ -3,7 +3,7 @@ import { CardStack } from "../components/ui/card-stack";
 import { cn } from "../lib/utils";
 export default function CardStackDemo() {
   return (
-    <div className="h-fit mt-16 flex items-center justify-center w-full">
+    <div className="h-fit  mt-16 flex items-center justify-center w-full">
       <CardStack items={CARDS} />
     </div>
   );
